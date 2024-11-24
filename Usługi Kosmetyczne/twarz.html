@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Kosmetyczny</title>
+    <link rel="stylesheet" href="styl7.css">
+</head>
+<body>
+    <div id="l1">
+        <h2>Nasza oferta</h2>
+        <ol>
+            <li><a href="twarz.html">Oczyszczanie twarzy</a>
+                <ul>
+                    <li>Peeling</li>
+                    <li>Maska</li>
+                </ul>
+            </li>
+            <li>Masaż</li>
+            <li>Makijaż</li>
+        </ol>
+        <a href="index.html" id="sglowna">Strona Główna</a>
+    </div>
+    <div id="p1">
+        <h1>Usługi Kosmetyczne</h1>
+    </div>
+    <div id="p2">
+        <h3>Kalkulator ceny wizyty</h3>
+        <input type="checkbox" name="peeling" id="peeling"> <label for="peeling">Peeling</label><br>
+        <input type="checkbox" name="maska" id="maska"> <label for="maska">Maska</label><br>
+        <input type="checkbox" name="masaz" id="masaz"> <label for="masaz">Masaż twarzy</label><br>
+        <input type="checkbox" name="makijaz" id="makijaz"> <label for="makijaz">Makijaż</label><br>
+        <input type="submit" value="Oblicz cenę" onclick="Oblicz()">
+        <p id="wynik"></p>
+        <script src="script.js"></script>
+    </div>
+    <div id="l2">
+        <img src="obraz1.jpg" alt="Personel">
+    </div>
+    <footer>
+        <p>Autor: Kamil Pałucha</p>
+    </footer>
+</body>
+</html>
