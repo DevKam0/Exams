@@ -1,0 +1,65 @@
+*{
+    font-family: Georgia;
+    color: white;
+}
+
+header, footer{
+    background-color: maroon;
+    text-align: center;
+    padding: 2px;
+}
+
+#lewy, #prawy, #srodek{
+    background-color: lightsalmon;
+    height: 527px;
+    float: left;
+}
+
+#lewy, #prawy{
+    width: 15%;
+}
+
+#srodek{
+    width: 70%;
+}
+
+button{
+    background-color: lightsalmon;
+    color: maroon;
+    border: 0;
+    font-size: 400%;
+    display: block;
+    margin: auto;
+    padding-top: 210px;
+}
+
+#miniatury{
+    background-color: maroon;
+    height: 70px;
+    clear: both;
+}
+
+#miniatury img{
+    height: 70px;
+    animation-name: slideInLeft 4s;
+}
+
+@keyframes slideInLeft {
+    from {
+      margin-left: 50px;
+    }
+    to {
+      margin-left: 0;
+    }
+}
+
+#srodek img {
+    display: block;
+    margin: auto;
+    padding-top: 45px;
+    transition: transform 5s ease;
+}
+
+#srodek img:hover {
+    transform: scale(1.2);
+}
